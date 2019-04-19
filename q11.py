@@ -18,7 +18,8 @@ class Patient(object):
     def display_details(self):
         #-----C style format for printing ------#
         #-----Makes it more cleaner and cooler----#
-        print('%-10s %-10s %-10s %-10s %-10s %-10s'%(self.name,self.pid,self.ward_no,self.age,self.gender,self.blood_group))
+        if self.gender == 'M':
+            print('%-10s %-10s %-10s %-10s %-10s %-10s'%(self.name,self.pid,self.ward_no,self.age,self.gender,self.blood_group))
      
     @classmethod
 
@@ -44,4 +45,7 @@ def Read_Back_details():
 
 Insert_patient()
 Insert_patient()
+Insert_patient()
+Insert_patient()
 Read_Back_details()    
+
