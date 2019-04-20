@@ -3,6 +3,8 @@ import mysql.connector as mc
 from tkinter import *
 
 #---Here testDB should be created on your mysql database,or else create one-----#s
+#---for creating a database in sql use command mysql -u root -p (for login)----#
+#----then type CREATE DATABASE testDB---------#
 
 mydb = mc.connect(
     host = "localhost",
