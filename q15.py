@@ -1,4 +1,4 @@
-import pickle
+
 import mysql.connector as mc
 from tkinter import *
 
